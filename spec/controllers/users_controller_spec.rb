@@ -16,13 +16,6 @@ describe UsersController do
     end
   end
 
-  describe "GET 'show'" do
-    it "should have the right title" do
-      get 'new'
-      response.should have_selector("title", :content => "Sign up")
-    end
-  end
-
   describe "POST 'create'" do
 
     describe "failure" do
